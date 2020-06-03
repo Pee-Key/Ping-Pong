@@ -100,7 +100,7 @@ void Game::rightPadMove() {
 
 void Game::scoreShow(sf::RenderWindow &window) {
     sf::Texture score;
-    score.loadFromFile("C:/Users/USER/CLionProjects/po/PingPongGame/segment_povorot.png");
+    score.loadFromFile("segment_povorot.png");
     sf::Sprite scoreL;
     scoreL.setTexture(score);
     sf::Sprite scoreR;
@@ -198,15 +198,15 @@ void Game::scoreShow(sf::RenderWindow &window) {
 
 void Game::mainMenu(sf::RenderWindow &window) {
     sf::Texture PVP;
-    PVP.loadFromFile("C:/Users/USER/CLionProjects/po/PingPongGame/PVP.png");
+    PVP.loadFromFile("PVP.png");
     sf::Sprite PVPs;
     PVPs.setTexture(PVP);
     sf::Texture PVC;
-    PVC.loadFromFile("C:/Users/USER/CLionProjects/po/PingPongGame/PVC.png");
+    PVC.loadFromFile("PVC.png");
     sf::Sprite PVCs;
     PVCs.setTexture(PVC);
     sf::Texture QUIT;
-    QUIT.loadFromFile("C:/Users/USER/CLionProjects/po/PingPongGame/QUIT.png");
+    QUIT.loadFromFile("QUIT.png");
     sf::Sprite QUITs;
     QUITs.setTexture(QUIT);
     PVPs.setPosition(248, 400);
